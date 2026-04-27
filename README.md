@@ -65,8 +65,8 @@ sudo apt update && sudo apt upgrade -y
 **Install Node.js & npm:**
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 **Install PM2:**
